@@ -28,7 +28,6 @@ namespace Menu
         public static void Menu(){
             int op = 0;
             do{
-                Menu();
                 op = int.Parse(Console.ReadLine());
                 switch (op) {
                     case 1:
